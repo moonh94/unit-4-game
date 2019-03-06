@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Crystal Game</title>
 </head>
@@ -33,6 +34,8 @@
                     <p id="number-to-guess"></p>
                 </div>
                 <div class="col-md-4" id="points">
+                    <h4>Your Number:</h4>
+                    <p id="current"></p>
                     
                 </div>
                 <div class="col-md-4" id="w-l">
@@ -42,15 +45,15 @@
             </div>
         </div>
 
-        <div class="crystals">
-            <img id="crystal1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6ZRaTk0vamiHZqcS4BRZXYGrOC_WIFK3GCX8K85vqqTMdEs"
-                alt="crystal-1">
-            <img id="crystal2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfxXidBEjy8Uz_wa6NFo98ozBfazAGWhp1oB7A-efj0B6smnj"
-                alt="crystal-2'">
+        <div id="crystals">
+            <!-- <img class="crystal-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6ZRaTk0vamiHZqcS4BRZXYGrOC_WIFK3GCX8K85vqqTMdEs"
+                alt="crystal"> -->
+            <!-- <img id="crystal2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfxXidBEjy8Uz_wa6NFo98ozBfazAGWhp1oB7A-efj0B6smnj"
+                alt="crystal-2'"> 
             <img id="crystal3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWR7WP7etKttEFNOu1bMApQJxZd9CyzzBnPR9emUDeYg2I0Kav"
                 alt="crystal-3">
             <img id="crystal4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07Z0iD5rieK6mepbyphf92SnWCpAsQv0YxJPGFGEszrathUKEHA"
-                alth="crystal-4">
+                alt="crystal-4">  -->
         </div>
 
     </div>
