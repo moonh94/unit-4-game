@@ -1,0 +1,51 @@
+body {
+    background: rgb(91, 194, 235);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+h1 {
+    padding: 20px;
+    margin: 20px;
+}
+
+.instructions {
+    padding: 10px 100px 10px 100px;
+    
+}
+
+#total {
+    width: 33%;
+    padding: 10px 10px 10px 250px;
+}
+
+#points {
+    width: 33%;
+    padding: 10px;
+}
+
+#w-l {
+    width: 34%;
+    padding: 10px 250px 10px 10px;
+}
+
+#crystal1 {
+    height: 200px;
+    width: 200px;
+    margin: 20px 0
+}
+
+#crystal2 {
+    height: 200px;
+    width: 200px;
+
+}
+#crystal3 {
+    height: 200px;
+    width: 200px;
+}
+#crystal4 {
+    height: 200px;
+    width: 200px;
+}
