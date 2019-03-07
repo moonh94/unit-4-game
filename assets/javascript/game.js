@@ -67,10 +67,7 @@ $(".crystal-image").on("click", function() {
         counter=0;
         reset();
         targetNumber=Math.floor(Math.random() * (120 - 19 + 1)) + 19;
-        $("#number-to-guess").text(targetNumber);
-
-       
-         
+        $("#number-to-guess").text(targetNumber);   
         
     };
    
